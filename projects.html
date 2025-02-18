@@ -4,25 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projetos</title>
+    <title>Portfólio</title>
     <link
       rel="shortcut icon"
       href="assets/icons8-name-32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+  
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/mq.css">
   </head>
 
   <body>
     <header class="cabecalho">
       <nav class="cabecalho__menu">
         <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
         <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
       </nav>
     </header>
 
     <main class="apresentacao">
-      <button id="btnTopo" class="botao-topo">⬆</button>
+      <abbr title="Voltar ao Topo"
+        ><button id="btnTopo" class="botao-topo">⬆</button></abbr
+      >
+
       <section>
         <h1 class="apresentacao__conteudo__titulo">Meus Projetos</h1>
         <div class="apresentacao__projeto">
@@ -35,10 +41,13 @@
           <h2 class="apresentacao__conteudo__texto">Previsão do tempo</h2>
           <p class="apresentacao__conteudo__texto">
             Uma página de previsão do tempo para cidades. Essa página se conecta
-            com uma <strong>API</strong> que fornece informações meteorológicas
-            do dia atual e dos cinco dias futuros. Tecnologias utilizadas:
-            <strong>React.js</strong>, <strong>JavaScript</strong>,
-            <strong>HTML</strong> e <strong>CSS</strong>.
+            com uma <strong class="titulo-destaque">API</strong> que fornece
+            informações meteorológicas do dia atual e dos cinco dias futuros.
+            Tecnologias utilizadas:
+            <strong class="titulo-destaque">React.js</strong>,
+            <strong class="titulo-destaque">JavaScript</strong>,
+            <strong class="titulo-destaque">HTML</strong> e
+            <strong class="titulo-destaque">CSS</strong>.
           </p>
         </div>
         <div class="apresentacao__projeto">
@@ -52,9 +61,9 @@
           <p class="apresentacao__conteudo__texto">
             O site é um clone da interface da Netflix. Ele apresenta um design
             moderno, com um layout responsivo e seções para exibir filmes e
-            séries. Tecnologias utilizadas: <strong>JavaScript</strong>,
-            <strong>HTML</strong>, <strong>CSS</strong> e
-            <strong>Bootstrap</strong>.
+            séries. Tecnologias utilizadas: <strong class="titulo-destaque">JavaScript</strong>,
+            <strong class="titulo-destaque">HTML</strong>, <strong class="titulo-destaque">CSS</strong> e
+            <strong class="titulo-destaque">Bootstrap</strong>.
           </p>
         </div>
         <div class="apresentacao__projeto">
@@ -71,12 +80,14 @@
             Os usuários podem selecionar uma nota e enviá-la. Após o envio, o
             sistema exibe uma mensagem de agradecimento junto com a nota
             escolhida. O design é responsivo para melhorar a experiência do
-            usuário. Tecnologias utilizadas: <strong>JavaScript</strong>,
-            <strong>HTML</strong> e <strong>Tailwind CSS</strong>.
+            usuário. Tecnologias utilizadas: <strong class="titulo-destaque">JavaScript</strong>,
+            <strong class="titulo-destaque">HTML</strong> e <strong class="titulo-destaque">Tailwind CSS</strong>.
           </p>
         </div>
         <div class="apresentacao__projeto">
-          <a href="https://kalebemax.github.io/base-apparel-coming-soon-master/" target="_blank"
+          <a
+            href="https://kalebemax.github.io/base-apparel-coming-soon-master/"
+            target="_blank"
             ><img
               class="apresentacao__projeto__imagem"
               src="assets/projeto-comingsoon.png"
@@ -84,9 +95,11 @@
           /></a>
           <h2 class="apresentacao__conteudo__texto">Coming Soon</h2>
           <p class="apresentacao__conteudo__texto">
-            O site é uma página de "Coming Soon" para a marca fictícia Base Apparel. Ele possui um design moderno e responsivo, com um campo de inscrição por email.
-            Tecnologias utilizadas: <strong>JavaScript</strong>,
-            <strong>HTML</strong> e <strong>Tailwind CSS</strong>.
+            O site é uma página de "Coming Soon" para a marca fictícia Base
+            Apparel. Ele possui um design moderno e responsivo, com um campo de
+            inscrição por email. Tecnologias utilizadas:
+            <strong class="titulo-destaque">JavaScript</strong>, <strong class="titulo-destaque">HTML</strong> e
+            <strong class="titulo-destaque">Tailwind CSS</strong>.
           </p>
         </div>
       </section>

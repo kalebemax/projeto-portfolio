@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__imagem {
+        margin-bottom: 0;
+    }
+
+    .apresentacao__links {
+        padding-right: 0;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__projeto {
+        padding-left: 50px;
+    }
+}
