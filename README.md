@@ -49,7 +49,9 @@ projeto-portfolio/
 
 Caso queira entrar em contato, me encontre em:
 
-- **Email:** kalebemaxsilv@gmail.com
+- ```bash
+   kalebemaxsilv@gmail.com
+   ``` 
 - [LinkedIn](https://www.linkedin.com/in/kalebe-max/)
 - [GitHub](https://github.com/kalebemax)
 
