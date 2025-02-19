@@ -63,7 +63,7 @@ body {
 }
 
 .apresentacao {
-  padding: 5% 15%;
+  padding: 5% 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,7 +95,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  padding-right: 170px;
+  padding-right: 195px;
 }
 .apresentacao__links__subtitulo {
   font-family: var(--fonte-primaria);
@@ -121,7 +121,7 @@ body {
   background-color: var(--cor-hover);
 }
 .apresentacao__imagem {
-  width: 35%;
+  width: 30%;
   padding: 10px;
   margin-bottom: 300px;
   border-radius: 30px;
