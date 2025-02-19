@@ -90,29 +90,39 @@ body {
 }
 
 .apresentacao__projeto {
-    width: 80%;
-    padding: 10px;
-    border-radius: 30px;
-    margin-top: 50px;
-    padding-left: 30px;
-    text-align: center;
-  }
-  
-  .apresentacao__projeto__imagem {
-    width: 90%;
-    border-radius: 30px;
-  }
-  
-  .apresentacao__projeto__imagem:hover {
-    transform: scale(1.10);
-    transition: 300ms all ease-in-out;
-  }
-  
-  .apresentacao__projeto > h2 {
-    margin: 20px;
-    font-size: 2rem;
-  }
-  
-  .apresentacao__projeto > p {
-    font-size: 1.2rem;
-  }
+  width: 80%;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.apresentacao__projeto__imagem {
+  width: 90%;
+  border-radius: 30px;
+}
+
+.apresentacao__projeto__imagem:hover {
+  transform: scale(1.1);
+  transition: 300ms all ease-in-out;
+}
+
+.apresentacao__projeto > h2 {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.apresentacao__projeto > p {
+  font-size: 1.2rem;
+}
+
+.rodape {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 24px;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
