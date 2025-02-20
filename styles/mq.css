@@ -8,6 +8,7 @@
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        text-align: center;
     }
 
     .apresentacao__imagem {
@@ -22,7 +23,12 @@
         width: auto;
     }
 
+    .apresentacao__conteudo__lista {
+        text-align: left;
+    }
+
     .apresentacao__projeto {
         padding-left: 50px;
+        text-align: center;
     }
 }
