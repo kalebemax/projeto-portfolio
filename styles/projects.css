@@ -18,6 +18,9 @@ body {
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .cabecalho {
@@ -43,30 +46,13 @@ body {
   color: var(--cor-secundaria);
 }
 
-.botao-topo {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: var(--cor-terciaria);
-  color: var(--cor-primaria);
-  border: none;
-  padding: 15px 20px;
-  font-size: 20px;
-  border-radius: 1000px;
-  cursor: pointer;
-  display: none;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.botao-topo:hover {
-  transform: scale(1.1);
-}
-
 .apresentacao {
   display: flex;
   align-items: center;
   flex-flow: column;
   justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
 }
 
 .apresentacao__conteudo {
@@ -80,7 +66,7 @@ body {
   font-size: 2.25rem;
   font-family: var(--fonte-primaria);
   text-align: center;
-  margin: 40px auto;
+  margin: 60px auto;
 }
 .titulo-destaque {
   color: var(--cor-terciaria);
@@ -91,59 +77,53 @@ body {
   line-height: 30px;
 }
 
-.apresentacao  {
-  gap: 15px;
-  margin: 0 auto;
+section {
+  max-width: 1200px;
+  gap: 35px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .apresentacao__projeto {
-  padding: 20px;
-  border-radius: 20px;
-  margin-bottom: 30px;
-  text-align: center;
+  background-color: #09122c;
+  border-radius: 16px;
   transition: transform 0.3s ease-in-out;
-
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
+  height: auto;
+  width: 350px;
+  overflow: hidden;
+  margin-bottom: 150px;
+  border-radius: 10px;
 }
 
 .apresentacao__projeto__imagem {
   width: 100%;
-  max-width: 500px;
-  border-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
 }
 
-.apresentacao__projeto__imagem:hover {
+.apresentacao__projeto:hover {
   transform: scale(1.05);
   transition: 300ms ease-in-out;
+  box-shadow: 0 2px 8px #22d5fd3d;
 }
 
 .apresentacao__projeto > h2 {
-  margin: 20px 0 10px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 .apresentacao__projeto > p {
   font-size: 1.2rem;
-  width: 70%;
+  margin: 10px;
 }
 
-/* Responsividade para telas maiores */
-@media (min-width: 768px) {
-  .apresentacao section {
-      grid-template-columns: repeat(2, 1fr);
-  }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-/* Responsividade para telas grandes */
-@media (min-width: 1200px) {
-  .apresentacao section {
-      grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 
 .rodape {
   color: var(--cor-primaria);
