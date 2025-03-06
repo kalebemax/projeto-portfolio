@@ -37,7 +37,7 @@
   }
 
   .cabecalho__menu {
-    gap: 30px;
+    gap: 50px;
   }
 
   .cabecalho__menu__link {
@@ -57,7 +57,7 @@
   }
 
   #titulo__sobre {
-    left: 15%;
+    left: 17%;
   }
 
   .apresentacao__projeto {
